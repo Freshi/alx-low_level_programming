@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
 */
 
-char main(void)
+int main(void)
 	{
-		return ("Holberton School");
+		return (0);
 	}
