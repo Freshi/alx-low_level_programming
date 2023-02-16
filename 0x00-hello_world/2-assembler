@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CPATH -o "${CPATH%.*}".s
+gcc -S $CPATH 
