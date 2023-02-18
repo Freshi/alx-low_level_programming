@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - Printns alphabet
@@ -13,7 +14,7 @@ int main(void)
 
 	for (x = 'A'; x <= 'Z'; x++)
 	{
-		putchar(x);
+		putchar(tolower(x));
 	}
 
 	putchar('\n');
