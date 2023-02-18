@@ -14,12 +14,11 @@ int main(void)
 
 	for (x = 'A'; x <= 'Z'; x++)
 	{
-		if (x != 'E' || x != 'Z')
-		{
-			putchar(tolower(x));
-		}
+		if (x == 'E' || x == 'Q')
+			continue;
+		putchar(tolower(x));
 	}
-
+	
 	putchar('\n');
 
 	return (0);
