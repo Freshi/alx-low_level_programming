@@ -14,7 +14,7 @@ int main(void)
 
 	for (x = 'A'; x <= 'Z'; x++)
 	{
-		if (x != 'e' || x != 'q')
+		if (x != 'E' || x != 'Z')
 		{
 			putchar(tolower(x));
 		}
