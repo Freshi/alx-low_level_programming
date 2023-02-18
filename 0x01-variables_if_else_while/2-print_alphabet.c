@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - Printns alphabet
@@ -9,12 +9,14 @@
 
 int main(void)
 {
-	for (int x = 'A'; x <= 'Z'; x++)
+	int x;
+
+	for (x = 'A'; x <= 'Z'; x++)
 	{
 		putchar(x);
 	}
 
-	putchar("\n);
+	putchar('\n');
 
 	return (0);
 }
