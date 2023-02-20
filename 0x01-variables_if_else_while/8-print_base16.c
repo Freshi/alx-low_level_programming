@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - Hexadecimal
@@ -18,7 +19,7 @@ int main(void)
 	}
 	for (j = 'A'; j <= 'F'; j++)
 	{
-		putchar(j);
+		putchar(tolower(j));
 	}
 
 	putchar('\n');
