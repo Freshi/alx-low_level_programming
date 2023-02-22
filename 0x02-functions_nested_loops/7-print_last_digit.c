@@ -12,6 +12,8 @@
 
 int print_last_digit(int i)
 {
+	int j;
+
 	if (i == INT_MIN || i == INT_MAX)
 	{
 		j = labs(i) % 10;
