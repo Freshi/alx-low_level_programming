@@ -11,7 +11,14 @@
 
 int print_last_digit(int i)
 {
-	int j = abs(i) % 10;
+	if (i == INT_MIN || i == INT_MAX)
+	{
+		j = labs(i) % 10;
+	}
+	else
+	{
+		j = abs(i) % 10;
+	}
 
 	_putchar(48 + j);
 
