@@ -5,3 +5,5 @@
 
 void positive_or_negitve(int i);
 
+#endif /* MAIN_H */
+
