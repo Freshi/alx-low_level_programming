@@ -29,11 +29,14 @@ void print_diagonal(int n)
 					_putchar(' ');
 				}
 				else
+				{
 					_putchar('\\');
+				}
 				j++;
 			}
 
-			_putchar('\n');
 		}
+
+		_putchar('\n');
 	}
 }
