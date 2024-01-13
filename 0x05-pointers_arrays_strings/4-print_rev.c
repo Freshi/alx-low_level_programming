@@ -8,6 +8,19 @@
   * Return: 0
   */
 
+int _strlen(char *s)
+{
+	int i, len = 0;
+
+	for (; *s != '\0'; i++)
+	{
+		len++;
+		s++;
+	}
+
+	return (len);
+}
+
 void print_rev(char *s)
 {
 	int i = _strlen(s);
