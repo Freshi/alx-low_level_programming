@@ -2,7 +2,7 @@
 
 /**
 * _puts_recursion - prints a string recursively
-* @str: string to be printed
+* @s: string to be printed
 *
 * Description - prints our string recursively
 * Return : 0
