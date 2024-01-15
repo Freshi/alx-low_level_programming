@@ -23,7 +23,7 @@ int _strlen(char *s)
 
 /**
   * puts_half - prints second hand of string
-  * @str - pointer to string
+  * @str: pointer to string
   *
   * Description - prints last half of str
   * Return: 0

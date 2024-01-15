@@ -2,7 +2,7 @@
 
 /**
   * print_array - prints specified number of array items
-  * @a; array to print from
+  * @a: array to print from
   * @n: int - number of items to print
   *
   * Description - print n numbers of a
