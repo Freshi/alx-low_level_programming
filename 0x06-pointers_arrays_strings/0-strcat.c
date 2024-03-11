@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 /**
  * _strlen - gets the length of a string
  * @s: string to get length of
@@ -42,7 +42,7 @@ char *_strcat(char *dest, char *src)
 		i++;
 	}
 
-	dest[len] = '\n';
+	dest[len] = '\0';
 
 	return (dest);
 }
